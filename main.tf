@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0c55b159cbfafe1f0" # Example AMI, update with a current one
+  ami           = "ami-033a1ebf088e56e81" # Example AMI, update with a current one
   instance_type = "t2.micro"
 }
